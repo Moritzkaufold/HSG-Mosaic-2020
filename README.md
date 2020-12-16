@@ -1,6 +1,7 @@
 # HSG-Project-Mosaic (Python3)
 
 ***Project Description***
+
 This is a student project of the University of St. Gallen within the course Programming – Introduction Level. Python is the programming language used for the project. The goal of the project was to create a mosaic of small pictures, which on the whole imitates a larger picture. Since we, Nikolas and Moritz, are both very interested in art, we decided to take a picture of an artist with simple colours and recreate this image with many (1616 to be exact) smaller pictures. 
 
 We focused on bees for the small pictures since xxxxx
@@ -9,6 +10,7 @@ In order to use and test the program, please see the "Use & Application" Section
 
 
 ***Structure***
+
 Our whole project is divided into 2 parts:
 
 1.	Downloading and resizing of 1616 bee pictures 
@@ -21,6 +23,7 @@ In order to test this, only step 2 should be carried out (as step 1 takes quite 
 
 
 ***Instructions***
+
 1.  Download the "Colour_Spectrum_Target"-image and the "Bees"-folder into a folder on you computer locally (has to be same folder)
 
 2.  Numpy and Pillow (PIL) packages need to be installed on computer locally
