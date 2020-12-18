@@ -6,7 +6,7 @@ This is a student project of the University of St. Gallen within the course Prog
 
 We focused on bees for the small pictures since they appear in many different colors, making the final mosaic target picture more vivid.
 
-In order to use and test the program, please see the "Use & Application" Section below.
+In order to use and test the program, please see the "Instruction" Section below.
 
 
 ***Structure***
