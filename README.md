@@ -19,9 +19,9 @@ Our whole project is divided into 2 parts:
     
 2.  From this, bee-picture folder and our target image (e.g. Rothko painting), we now created a mosaic, matching the avgerage RGB colour values of each bee picture, with the RGB     value of a "pixel" of the target image (target image is divided into 1616 pixels)
 
-Step one is represented in "Download&Resize.py" file, however is not meant to be carried out here (not supposed to be tested as complicated/takes long) 
+Step 1 is represented in "Download&Resize.py" file, however it is NOT meant to be carried out here (because takes quite long and you would need a Flickr account). 
 
-Step 2 is supposed to be tested/performed, please see "Instructions" below for this.
+Step 2 is supposed to be tested/performed, please see "Instructions", below, for this.
 
 
 ***Instructions***
@@ -32,9 +32,9 @@ Step 2 is supposed to be tested/performed, please see "Instructions" below for t
 
 3.  Copy the code from "Create_Mosaic.py" into your IDE and save the file in the same folder as the "Colour_Spectrum_Target"-image and "Bees"-folder
 
-4.  Run the code file that you just saved (e.g. from terminal). It might take a few minutes to load. Afterward click on the newly created "Output"-image and the mosaic should appear :)
+4.  Run the code file that you just saved (e.g. from terminal). It might take a few minutes to load. Afterward click on the newly created "Output"-image and the mosaic should       appear
 
-(Note that it might take a little and you might have to press enter a few times)
+(Note that it might take a little and you might have to press enter a few times. We have included an example output, "Spectrum_Output_9000" (30x30), as well for your reference in the repository)
 
 
 ***Thanks for your interest***
