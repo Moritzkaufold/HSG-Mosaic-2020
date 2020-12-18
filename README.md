@@ -2,9 +2,10 @@
 
 ***Project Description***
 
-This is a student project of the University of St. Gallen within the course Programming – Introduction Level. Python is the programming language used for the project. The goal of the project was to create a mosaic of small pictures, which on the whole imitates a larger picture. Since we, Nikolas and Moritz, are both very interested in art, we decided to take a picture of an artist with simple colours and recreate this image with many (1616 to be exact) smaller pictures. 
+This is a student project (Python3 used) of the University of St. Gallen within the course Programming – Introduction Level.
+The goal of the project was to create a mosaic of small pictures, which on the whole imitates a larger picture. Since we, Nikolas and Moritz, are both very interested in art, we decided to take a color spectrum with simple colours and recreate this image with many (1616 to be exact) smaller pictures. 
 
-We focused on bees for the small pictures since they appear in many different colors, making the final mosaic target picture more vivid.
+We focused on bees for the small pictures since they appear in many different colors and we were able to find many bee pictures on Flickr, making the final mosaic target picture more vivid. In the end, the mosaic of 1600 small bee pictures should imitate the large color spectrum image ("Colour_Spectrum_Target.png").
 
 In order to use and test the program, please see the "Instruction" Section below.
 
@@ -14,11 +15,13 @@ In order to use and test the program, please see the "Instruction" Section below
 Our whole project is divided into 2 parts:
 
 1.	Downloading and resizing of 1616 bee pictures 
-    We used Flickr's API to download pictures of bees, as it was relatively easy to use with python. Subsequently we resized all pictures to the same size and saved them to the "Bees" folder
+    We used Flickr's API to download pictures of bees, as it was relatively easy to use with python. Subsequently we resized all pictures to the same size and saved them to the     "Bees" folder
     
-2.  From this bee-picture folder and our target image (e.g. Rothko painting), we now created a mosaic, matching the avg. RGB colour values of each bee picture, with the RGB value of a "pixel" of the target image (target image is divided into 1600 pixels)
+2.  From this, bee-picture folder and our target image (e.g. Rothko painting), we now created a mosaic, matching the avgerage RGB colour values of each bee picture, with the RGB     value of a "pixel" of the target image (target image is divided into 1600 pixels)
 
-In order to test this, only step 2 should be carried out (as step 1 takes quite long and involves more steps)!
+Step one is represented in "Download&Resize.py" file, however is not meant to be carried out here (not supposed to be tested as complicated/takes long) 
+
+Step 2 is supposed to be tested/performed, please see "Instructions" below for this.
 
 
 ***Instructions***
@@ -27,7 +30,7 @@ In order to test this, only step 2 should be carried out (as step 1 takes quite 
 
 2.  Numpy and Pillow (PIL) packages need to be installed on computer locally (https://pypi.org/project/Pillow/)
 
-3.  Copy the code from "Create_Mosaic" into your IDE and save the file in the same folder as the "Colour_Spectrum_Target"-image and "Bees"-folder
+3.  Copy the code from "Create_Mosaic.py" into your IDE and save the file in the same folder as the "Colour_Spectrum_Target"-image and "Bees"-folder
 
 4.  Run the code file that you just saved (e.g. from terminal). It might take a few minutes to load. Afterward click on the newly created "Output"-image and the mosaic should appear :)
 
