@@ -14,8 +14,7 @@ In order to use and test the program, please see the "Use & Application" Section
 Our whole project is divided into 2 parts:
 
 1.	Downloading and resizing of 1616 bee pictures 
-    We used Flickr's API to download pictures of bees, as it was relatively easy to use with python
-    Subsequently we resized all pictures to the same size and saved them to the "Bees" folder
+    We used Flickr's API to download pictures of bees, as it was relatively easy to use with python. Subsequently we resized all pictures to the same size and saved them to the "Bees" folder
     
 2.  From this bee-picture folder and our target image (e.g. Rothko painting), we now created a mosaic, matching the avg. RGB colour values of each bee picture, with        the RGB value of a "pixel" of the target image (target image is divided into 1600 pixels)
 
