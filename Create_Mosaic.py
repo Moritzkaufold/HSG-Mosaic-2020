@@ -16,8 +16,8 @@ def getRGBAverage(image):
   else:
     return tuple([94.17938659, 96.4187611, 31.38851464])
   
+#this function splits image into m*n small images 
 def splitImage(image, size): 
-  #split image into m*n small images 
   m, n = size 
   w, h = int(image.size[0]/n), int(image.size[1]/m) 
   imgs = [] 
@@ -27,7 +27,7 @@ def splitImage(image, size):
   return imgs 
   
 def getImages(imageDir): 
-  #get images from a Folder of images
+  #gets images from a Folder of images
   folder = os.listdir(imageDir) 
   images = [] 
   for file in folder: 
@@ -79,6 +79,8 @@ def createMosaic(images, dims):
 
   return new_mosaic_image 
   
+  
+#main() function  
 def main(): 
   global input_images
   global avgs
@@ -111,7 +113,7 @@ def main():
     match_index = findBestMatch(avg)
     img_with_border = ImageOps.expand(input_images[match_index],border=10,fill='white')
     output_images.append(img_with_border)
-    # user feedback 
+    # user feedback - so we know how many were processed
     if count > 0 and count % 100 == 0: 
       print('processed %d so far...' %(count)) 
     count += 1
