@@ -1,6 +1,6 @@
-#This code is merely meant to show how we obtained the bee pictures
+#This code is merely meant to show how we obtained the bee pictures (if you want, you can use however. You will need to create a Flickr account and input your filepath)
 
-#We searched, resized and downloaded 1800 flickr bee pictures to then use further
+#We searched, resized and downloaded 1616 flickr bee pictures to then use further
 
 #Importing the relevant libraries
 import requests
@@ -15,6 +15,7 @@ FLICKR_SECRET = '***************'
 #Folder path (unique to user, in this case Nikolas Unger)
 path = r'C:\Users\Nikolas Unger\Desktop\Projects\hsg-mosaic-python\test\flickr_biene\''
   
+#this function searches for the search term ("search"). It uses the public and private account keys (defined above)  
 def fetch_images(search):
     flickr = FlickrAPI(FLICKR_PUBLIC, FLICKR_SECRET, format='parsed-json')
     response = flickr.photos.search(text=search, per_page=200, sort='relevance', page = 9, privacy_filter=1)
@@ -38,6 +39,8 @@ def fetch_images(search):
             square = square.resize(size)
             name = (path + 'z_flickr_chinesisch_' + str(1800+ i))
             square.save(name, 'JPEG') 
+            
+        #helps us see how many pictures were processed (as it might take a while)    
         if count%100 == 0: 
             print('processed so far...' + str(count))
         count += 1
